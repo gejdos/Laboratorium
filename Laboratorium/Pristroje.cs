@@ -6,22 +6,30 @@ using System.Threading.Tasks;
 
 namespace Laboratorium
 {
-    sealed public class Mikroskop : Pristroj
+    sealed class Mikroskop : Pristroj
     {
 
+        public override void VypisDetailneInformacie()
+        {
+            Console.WriteLine();
+        }
 
         public override void VypisInformacieOPristroji()
         {
             Console.WriteLine();
-
         }
     }
 
-    public abstract class Odstredivka : Pristroj
+    sealed class Odstredivka : Pristroj
     {
+        public override void VypisDetailneInformacie()
+        {
+            Console.WriteLine();
+        }
+
         public override void VypisInformacieOPristroji()
         {
-
+            Console.WriteLine();
         }
     }
 }

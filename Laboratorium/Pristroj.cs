@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laboratorium
 {
-    public abstract class Pristroj
+    abstract class Pristroj
     {
         private bool zapnute;
         private int cisloPristroja;
