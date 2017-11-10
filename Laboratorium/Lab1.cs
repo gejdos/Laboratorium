@@ -18,8 +18,6 @@ namespace Laboratorium
 
             LaboratornyPristroj1.VypisInformacieOPristroji();
             LaboratornyPristroj2.VypisInformacieOPristroji();
-
-            
         }
 
     }

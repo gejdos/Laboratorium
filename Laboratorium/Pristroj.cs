@@ -19,7 +19,6 @@ namespace Laboratorium
 
         public abstract void VypisDetailneInformacie();
 
-
         public void Zapni()
         {
 
