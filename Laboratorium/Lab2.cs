@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laboratorium
 {
-    partial class Lab2
+    partial class Laboratorium
     {
 
         public class VeduciLaboratoria
@@ -26,6 +26,5 @@ namespace Laboratorium
             }
 
         }
-
     }
 }

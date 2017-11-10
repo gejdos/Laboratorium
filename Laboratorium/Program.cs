@@ -10,6 +10,10 @@ namespace Laboratorium
     {
         static void Main(string[] args)
         {
+            Laboratorium lab = new Laboratorium();
+
+            Mikroskop mikroskop = new Mikroskop();
+            mikroskop.VypisInformacieOPristroji();
 
         }
     }
