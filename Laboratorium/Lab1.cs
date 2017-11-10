@@ -8,11 +8,15 @@ namespace Laboratorium
 {
     partial class Lab1
     {
-        Pristroj LaboratornyPristroj1;
-        Pristroj LaboratornyPristroj2;
+        //Pristroj LaboratornyPristroj1;
+        //Pristroj LaboratornyPristroj2;
 
         private void SpustVyskum()
         {
+            Lab2.VeduciLaboratoria veduci = new Lab2.VeduciLaboratoria("Peter", "Novak");
+            veduci.VypisMeno();
+
+
 
         }
 

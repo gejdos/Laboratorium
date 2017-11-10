@@ -9,7 +9,7 @@ namespace Laboratorium
     partial class Lab2
     {
 
-        class VeduciLaboratoria
+        public class VeduciLaboratoria
         {
             private string meno, priezvisko;
 
@@ -24,7 +24,6 @@ namespace Laboratorium
             {
                 Console.WriteLine("Meno: {0}\nPriezvisko: {1}", meno, priezvisko);
             }
-
 
         }
 
