@@ -11,10 +11,9 @@ namespace Laboratorium
         Pristroj LaboratornyPristroj1;
         Pristroj LaboratornyPristroj2;
 
-        private void SpustVyskum()
+        public void SpustVyskum()
         {
-            VeduciLaboratoria veduci = new VeduciLaboratoria("Peter", "Novak");
-            veduci.VypisMeno();
+            VypisMeno();
 
             LaboratornyPristroj1.VypisInformacieOPristroji();
             LaboratornyPristroj2.VypisInformacieOPristroji();
