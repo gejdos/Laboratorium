@@ -13,7 +13,7 @@ namespace Laboratorium
 
         public void SpustVyskum()
         {
-            VypisMeno();
+            //VypisMeno();
 
             LaboratornyPristroj1.VypisInformacieOPristroji();
             LaboratornyPristroj2.VypisInformacieOPristroji();

@@ -12,7 +12,10 @@ namespace Laboratorium
         {
             Laboratorium Lab = new Laboratorium();
 
-            Pristroj LaboratornyPristroj1 = new Mikroskop();
+            Mikroskop LaboratornyPristroj1 = new Mikroskop();
+
+            LaboratornyPristroj1.VypisInformacieOPristroji();
+
             Pristroj LaboratornyPristroj2 = new Odstredivka();
 
             Laboratorium.VeduciLaboratoria veduci = new Laboratorium.VeduciLaboratoria("Peter", "Novak");

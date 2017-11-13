@@ -14,9 +14,10 @@ namespace Laboratorium
             Console.WriteLine();
         }
 
-        public override void VypisInformacieOPristroji()
+        public new void VypisInformacieOPristroji()
         {
-          
+            Pristroj pristroj = new Mikroskop();
+            pristroj.VypisInformacieOPristroji();
 
             Console.WriteLine("Toto je mikroskop.");
         }
