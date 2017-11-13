@@ -16,7 +16,9 @@ namespace Laboratorium
 
         public override void VypisInformacieOPristroji()
         {
-            Console.WriteLine();
+          
+
+            Console.WriteLine("Toto je mikroskop.");
         }
     }
 
@@ -29,7 +31,7 @@ namespace Laboratorium
 
         public override void VypisInformacieOPristroji()
         {
-            Console.WriteLine();
+            Console.WriteLine("Toto je odstredivka.");
         }
     }
 }

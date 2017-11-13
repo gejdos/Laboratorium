@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laboratorium
 {
-    abstract class Pristroj
+    abstract class Pristroj : IOvladaniePristroja
     {
         private bool zapnute;
         private int cisloPristroja;
@@ -21,12 +21,14 @@ namespace Laboratorium
 
         public void Zapni()
         {
-
+            zapnute = true;
+            Console.WriteLine("Pristroj je zapnuty.");
         }
 
         public void Vypni()
         {
-
+            zapnute = false;
+            Console.WriteLine("Pristroj je vypnuty.");
         }
 
     }
