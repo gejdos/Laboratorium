@@ -11,7 +11,7 @@ namespace Laboratorium
 
         public override void VypisDetailneInformacie()
         {
-            Console.WriteLine();
+            Console.WriteLine("Typ 1000");
         }
 
         public new void VypisInformacieOPristroji()
@@ -20,6 +20,8 @@ namespace Laboratorium
             pristroj.VypisInformacieOPristroji();
 
             Console.WriteLine("Toto je mikroskop.");
+
+            VypisDetailneInformacie();
         }
     }
 
